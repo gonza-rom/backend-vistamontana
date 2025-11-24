@@ -1,8 +1,7 @@
 <?php
 // controllers/alquileres.php
-require_once '../backendVistaMontana/utils/response.php';
-require_once '../backendVistaMontana/utils/validator.php';
-
+require_once __DIR__ . '/../utils/Response.php';
+require_once __DIR__ . '/../utils/validator.php';
 
 function obtenerAlquileres() {
     $database = new Database();
@@ -60,5 +59,4 @@ function obtenerAlquiler($id) {
 
     Response::success($alquiler);
 }
-
 ?>

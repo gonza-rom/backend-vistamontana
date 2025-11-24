@@ -1,6 +1,6 @@
 <?php
-require_once '../backendVistaMontana/utils/response.php';
-require_once '../backendVistaMontana/utils/validator.php';
+require_once __DIR__ . '/../utils/Response.php';
+require_once __DIR__ . '/../utils/validator.php';
 
 // controllers/lugares.php
 
